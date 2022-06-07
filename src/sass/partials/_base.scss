@@ -1,0 +1,39 @@
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  min-height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    92deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(85, 120, 100, 1) 100%
+  );
+  padding-bottom: 150px;
+}
+
+img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.noDisplay {
+  display: none;
+  color: $font-light;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  color: $orange;
+  background-color: black;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  font-weight: bolder;
+  font-size: 12pt;
+  z-index: 3;
+}
+footer svg {
+  color: $orange;
+}

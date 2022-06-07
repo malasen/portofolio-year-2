@@ -1,0 +1,32 @@
+//spacing
+$spacer: 2.5rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.8,
+  5: $spacer * 4,
+  6: $spacer * 7,
+  7: 15%,
+);
+
+//colors
+$dark: black;
+$light: white;
+$primary: #ff64ac;
+$secondary: #28ca89;
+$pink: #ffd2d2;
+$gray: rgba(255, 255, 255, 0.075);
+$purple: #ACA0ED;
+
+$overlay: rgba(100, 97, 90, 0.815);
+$orange: #d88d56;
+$font-light: #e4e4e4;
+$font-dark: #707070;
+
+//card
+$card-bg: rgba(0, 0, 0, 0.15);
+$card-border-radius: 20px;
+$card-border-color: transparent;
+$card-color: $font-light;

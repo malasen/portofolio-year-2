@@ -1,0 +1,61 @@
+.box-row {
+  border-radius: 20px;
+  padding: 10px 10px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: $dark;
+  color: $font-dark;
+  @media screen and (min-width: 993px) {
+    width: 70%;
+  }
+}
+.box-header {
+  z-index: -1;
+  @media screen and (min-width: 768px) {
+    width: 48%;
+    text-align: right;
+  }
+}
+
+.box-card {
+  padding: 0%;
+  @media screen and (min-width: 768px) {
+    padding: 5%;
+  }
+  @media screen and (min-width: 993px) {
+    padding: 0% 15%;
+  }
+}
+
+.box-card-sizing {
+  width: 100%;
+  @media screen and (min-width: 570px) {
+    width: 11.5rem;
+  }
+  @media screen and (min-width: 993px) {
+    width: 12rem;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 14rem;
+  }
+}
+
+.box-links {
+  width: 100%;
+  text-align: left;
+  z-index: 3;
+  @media screen and (max-width: 1200px) {
+    margin-bottom: 40px;
+  }
+}
+.box-links-right{
+  @media screen and (max-width: 768px) {
+    text-align: right;
+  }
+}
+
+
+
+.box-links a {
+  padding-right: 20px;
+}

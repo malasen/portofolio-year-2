@@ -1,0 +1,37 @@
+//card
+.card-sizing {
+  width: 110%;
+  margin-left: -5%;
+  @media screen and (min-width: 600px) {
+    width: 33rem;
+  }
+}
+//image
+.img-container {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 27px;
+  width: 140px;
+  height: 142px;
+  @media screen and (min-width: 480px) {
+    margin-left: 63.5%;
+    width: 180px;
+    height: 185px;
+  }
+}
+
+//content
+
+.contentShort {
+  width: 60%;
+  color: $font-light;
+  @media screen and (min-width: 600px) {
+    width: 14.3rem;
+  }
+}
+.contentMedium {
+  color: $font-light;
+  @media screen and (min-width: 600px) {
+    width: 18.21rem;
+  }
+}

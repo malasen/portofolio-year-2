@@ -1,0 +1,127 @@
+//sizes
+.fullborder {
+  width: 140%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  margin-left: -20%;
+  @media screen and (min-width: 600px) {
+    width: 100%;
+    margin: 0;
+  }
+}
+.fullerborder {
+  width: 140%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  margin-left: -20%;
+  @media screen and (min-width: 768px) {
+    width: 109%;
+    height: 106%;
+    margin: 0;
+    margin-left: -4%;
+    margin-top: -6%;
+  }
+}
+.fullerborderH {
+  width: 250%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  margin-left: -125%;
+  @media screen and (min-width: 768px) {
+    width: 105%;
+    height: 115%;
+    margin: 0;
+    margin-left: -5%;
+    margin-top: -10%;
+  }
+}
+.bigborder {
+  width: 125%;
+  height: 120%;
+  position: absolute;
+  border-radius: 20px;
+  margin-left: -12%;
+  margin-top: -120%;
+}
+
+.biggerborder {
+  width: 108%;
+  height: 110%;
+  position: absolute;
+  border-radius: 20px;
+  margin-left: 0%;
+  margin-top: -110%;
+}
+
+.box-border-md {
+  width: 50%;
+  height: 110%;
+  margin-left: 25%;
+  margin-top: -3%;
+  position: absolute;
+  border-radius: 20px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+//borders colors
+.border-green {
+  border: solid 2px $secondary;
+  z-index: 2;
+}
+.border-black {
+  border: solid 3px $dark;
+  z-index: 1;
+  @media screen and (max-width: 768px) {
+    z-index: -1;
+  }
+}
+.border-primary {
+  border: solid 2px $primary;
+  z-index: 2;
+}
+.border-gray {
+  border: solid 3px $gray;
+  padding: 3px;
+  z-index: 2;
+}
+.border-orange {
+  border: solid 3px $orange;
+  z-index: 2;
+}
+.border-light {
+  border: solid 3px $light;
+  z-index: -1;
+}
+.border-pink {
+  border: solid 3px $pink;
+  z-index: 2;
+}
+.border-purple {
+  border: solid 3px $purple;
+  z-index: 2;
+}
+
+//degrees
+.deg11 {
+  transform: rotate(11deg);
+}
+.deg0 {
+  transform: rotate(0deg);
+}
+.deg7 {
+  transform: rotate(7deg);
+}
+.deg-18 {
+  transform: rotate(-18deg);
+}
+.deg-7 {
+  transform: rotate(-7deg);
+}
+.deg-8 {
+  transform: rotate(-8deg);
+}

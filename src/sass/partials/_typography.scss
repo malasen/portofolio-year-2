@@ -1,0 +1,26 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  color: $primary;
+}
+h2 {
+  color: $pink;
+  font-size: 2.1rem;
+}
+h5 {
+  color: $light;
+}
+p {
+  font-size: 11pt;
+}
+h6 {
+  color: $font-light;
+}
+
+.md-right-align {
+  @media screen and (max-width: 400px) {
+    text-align: right;
+  }
+}
